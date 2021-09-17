@@ -1,4 +1,4 @@
-# custom-genome-builder :hammer_and_wrench: :dna:
+# Custom Genome Builder :hammer_and_wrench: :dna:
 #### Emily Georgiades, Hughes Group (September 2021)
 Scripts to build a custom genome in order to align sequencing reads from edited cell lines.
 
@@ -10,7 +10,7 @@ This is a modified version of Caz's existing script, which can be found here:
 
 ---
 #### Required files:
-1.  __edited_region.fa__            
+1.  [__edited_region.fa__](./edited_region.fa)            
     This contains the sequence to be inserted between homology arms
     
 2.  __genome.fa__                   
@@ -21,14 +21,14 @@ This is a modified version of Caz's existing script, which can be found here:
      Use a symbolic link i.e.  
     ```$ ln -s /path/to/file genome.fa ```
     
-4.  __allTheOtherChromosomes.bed__  
+4.  [__allTheOtherChromosomes.bed__](./allTheOtherChromosomes.bed)  
     Coordinates for all other chromosomes. Download chrom.sizes from UCSC, remember to delete the chromosome that you're editing:
     ```
     $ wget https://hgdownload.cse.ucsc.edu/goldenpath/mm39/bigZips/mm39.chrom.sizes 
     $ awk -v OFS='\t' '{print $1, 0, $2}' mm39.chrom.sizes > allTheOtherChromosomes.bed
     ```
 
-5.  __chrX_split.txt__              
+5.  [__chrX_split.txt__](./chrX_split.txt)               
     Need to know coordinates of edited chromosome + deletion region.  
     File should look like this (must be tab separated):   
     ```
