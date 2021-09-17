@@ -11,7 +11,7 @@ This is a modified version of Caz's existing script, which can be found here:
 ---
 #### Required files:
 1.  [__edited_region.fa__](./edited_region.fa)            
-    This contains the sequence to be inserted between homology arms
+    This contains the sequence (no headers!) to be inserted between homology arms. 
     
 2.  __genome.fa__                   
     Use a symbolic link i.e.  
