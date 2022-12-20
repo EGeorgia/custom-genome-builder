@@ -4,7 +4,7 @@ Scripts to build a custom genome in order to align sequencing reads from edited 
 
 This is a modified version of Caz's existing script, which can be found here:   
 ```
-/t1-data/project/fgenomics/shared/AA_previous_group_members/charrold/artificial_locus_project/12LP1_R2/custom_reference_genome/generating_custom_genome/
+<internal/path>
 ```
 
 
