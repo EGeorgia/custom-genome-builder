@@ -4,8 +4,8 @@
 # Emily Georgiades, Hughes lab
 # September 2021
 #
-# This script has been modified from:
-# /t1-data/user/charrold/artificial_locus_project/12LP1_R2/custom_reference_genome/
+# This script has been modified from Caz Harrold's original script.
+# <internal/path>
 #------------------------------------------------------------------------------
 
 
